@@ -1,0 +1,39 @@
+Documentation for the tokens:
+
+1) Sine Function: It refers to the Sine Function available in the Math Library i.e. s(x).
+
+2) Cos Function: It refers to the Cosine Function available in the Math Library i.e. c(x).
+
+3) Logarithm Function: It refers to the Natural Logarithm Function available in Math Library i.e. l(x).
+
+4) Exponential Function: It refers to the Exponential Function available in Math Library i.e. e(x).
+
+5) User Defined Function: This token contains all the functions defined by the user. For example: define x() {}
+
+6) Keyword: This token contains all the specific reserved keywords of the Basic Calculator language which can't be used as a variable name. For example: scale, define, return, continue, halt etc.
+
+7) Variable: This token contains all names which are not keywords & begin with a letter followed by any number of letters, digits and underscores. All letters must be lower case. 
+
+8) Number: It contains of all numbers.
+
+9) Comma: It contains ",".
+
+10) Assignment Operator: This token contains all assignment operators which are used to assign values to variables. ("=", "+=", "-=", "*=", "/=", "%=")
+
+11) Semi Colon: It contains ";".
+
+12) Arithmetic Operator: This token contains all arithmetric operators which are used to do arithmetic operations. ("+", "-", "*", "/", "%", "^")
+
+13) Increment/Decrement Operator: It contains the increment operator "++" & the decrement operator "--".
+
+14) Relational Operator: This token contains all relational operators. ("<", ">", "<=", ">=", "!=", "==")
+
+15) Boolean Logical Operator: This contains all boolean logical operators. ("||", "&&", "!")
+
+16) Bracket: This contains all opening & closing brackets excluding angular brackets as they are used as relational operators. ("(", ")", "{", "}", "[", "]")
+
+17) String: This contain all the text inside the double inverted commas. For example: "ABC123".
+
+18) SingleLine Comment: It contains all text in a line which start with #. For example: # ABC123.
+
+19) MultiLine Comment: This token contains the text inside /* & */. For Example: /* ABC123 */.

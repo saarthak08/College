@@ -1,0 +1,23 @@
+scale = 20
+
+/* 
+   Demo Multiline Comment
+*/
+
+define k(x) {
+  auto  a,b
+
+  if (x<0||x==0) {
+    x = -x
+    x++
+  } 
+  
+  # Demo Singleline Comment
+  print "Test String";
+  
+
+  s()
+  l()
+  c()
+}
+

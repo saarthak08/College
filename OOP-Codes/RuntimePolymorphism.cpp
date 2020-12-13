@@ -39,7 +39,7 @@ int main() {
 	Parent *pr = new Child();
 
 	c.print();
-	pr->print();
+	p->print();
 	pr->print();
 	pr->hello();
 }
